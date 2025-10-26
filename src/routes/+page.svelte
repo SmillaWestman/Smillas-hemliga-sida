@@ -1,4 +1,4 @@
-<h1>Welcome to SvelteKit och Smilla och sockerkaka</h1>
+<h1>Welcome to SvelteKit och Smilla och kladdkaka</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 <!--Delar upp sidan i två delar-->
