@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/BoC_YzjN.js";import{f as o,a as p}from"../chunks/CA-t6Ix7.js";var i=o("<main><h1>Photoapp</h1> <p>Denna sida innehåller fina bilder.</p></main>");function e(a){var n=i();p(a,n)}export{e as component};
