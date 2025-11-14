@@ -41,7 +41,7 @@
             <label for="namn">Namn:</label>
             <input type="text" id="namn" bind:value={namn} >
 
-            <label for ="lösenord">Lösenord</label>
+            <label for ="lösenord">Lösenord:</label>
             <input type="text" id="lösenord" bind:value={lösenord}>
 
             <input type="submit" value="Logga in">
@@ -93,7 +93,7 @@ label {
 }
 
 
-input, select {
+input{
     padding: 0.5rem;
     border-radius: 5px;
     border: none;

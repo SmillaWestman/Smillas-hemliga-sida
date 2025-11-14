@@ -20,7 +20,7 @@
     let users = [];
 
     function handleSubmit(){
-        const new_user = {
+        let new_user = {
             username: namn, 
             password: lösenord, 
             email: email, 
@@ -33,6 +33,7 @@
         alert("Användaren finns redan! Välj ett annat användarnamn.");
         return; // stoppa funktionen här
     }
+
 
         users = [...users, new_user];
         $users_store = JSON.stringify(users);
@@ -67,13 +68,13 @@ onMount(() => {
             <label for="namn">Namn:</label>
             <input type="text" id="namn" bind:value={namn} >
 
-            <label for="email">E-postadress</label>
+            <label for="email">E-postadress:</label>
             <input type="text" id="email" bind:value={email}>
 
-            <label for ="lösenord">Lösenord</label>
+            <label for ="lösenord">Lösenord:</label>
             <input type="text" id="lösenord" bind:value={lösenord}>
 
-            <label for="färg">Favoritfärg</label>
+            <label for="färg">Favoritfärg:</label>
             <select id="färg" bind:value={color}>
                 {#each färg as c}
                     <option value={c.value}>{c.namn}</option>
