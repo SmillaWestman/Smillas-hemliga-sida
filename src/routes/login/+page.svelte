@@ -2,6 +2,8 @@
 
     import { users_store } from "$lib/user";
     import { onMount } from "svelte";
+    import { base } from '$app/paths';
+
 
     let namn =""
     let lösenord=""
@@ -46,7 +48,7 @@
 
             <input type="submit" value="Logga in">
 
-            <p>Har du inget konto? <a href="/register">Registrera dig</a></p>
+            <p>Har du inget konto? <a href="{base}/register">Registrera dig</a></p>
 
          </form>
         

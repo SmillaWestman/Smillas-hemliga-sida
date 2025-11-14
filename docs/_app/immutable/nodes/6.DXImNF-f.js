@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/Cbf-9cGW.js";import{p as a,v as o}from"../chunks/CikQkXdz.js";var e=a('<main class="container svelte-1yr4rqt"><h1 class="svelte-1yr4rqt">Shoppinglist</h1> <div class="categories_container svelte-1yr4rqt"></div></main>');function p(r){var t=e();o(r,t)}export{p as component};

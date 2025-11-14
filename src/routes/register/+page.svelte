@@ -1,7 +1,8 @@
 <script>
 
     import {users_store} from "$lib/user";
-    
+    import { base } from '$app/paths';
+
     let color = "black"
     let namn =""
     let email =""
@@ -84,7 +85,7 @@ onMount(() => {
 
             <input type="submit" value="Registrera">
 
-            <p>Har du redan ett konto? <a href="/login">Logga in</a></p>
+            <p>Har du redan ett konto? <a href="{base}/login">Logga in</a></p>
             
 
 
