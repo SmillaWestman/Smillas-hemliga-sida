@@ -86,10 +86,8 @@ onMount(() => {
             <input type="submit" value="Registrera">
 
             <p>Har du redan ett konto? <a href="{base}/login">Logga in</a></p>
-            
 
-
-         </form>
+        </form>
         
     </div>
 
