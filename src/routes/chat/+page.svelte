@@ -282,6 +282,7 @@ input:focus {
     justify-content: center;
     transition: transform 0.2s ease;
     
+    
 }
 
 .clear:hover {
