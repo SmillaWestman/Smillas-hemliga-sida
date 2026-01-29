@@ -3,7 +3,7 @@
   // Importera goto-funktionen för att navigera mellan sidor
   import { goto } from '$app/navigation';
   import {onMount} from 'svelte'
-  	import { base } from '$app/paths';
+  import { base } from '$app/paths';
 
 
   let recentSearches = []
@@ -46,7 +46,7 @@ function handleSubmit(e) {
     saveSearch(search)
     
     // Navigera till den dynamiska routen /search/[pokemon]
-    goto('/search/' + search);
+    goto('/search/[pokemon]');
   }
 
   function getTypeClass(name) {
