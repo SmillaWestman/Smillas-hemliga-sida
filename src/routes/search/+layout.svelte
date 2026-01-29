@@ -3,8 +3,7 @@
   // Importera goto-funktionen för att navigera mellan sidor
   import { goto } from '$app/navigation';
   import {onMount} from 'svelte'
-  import { base } from '$app/paths';
-  
+
   let recentSearches = []
 
   onMount(() => {
@@ -68,7 +67,7 @@ function handleSubmit(e) {
     <slot>
 
     </slot>
-
+        
 <form onsubmit={handleSubmit}>
   <input class="search-input" type="text" name="search" placeholder="Sök upp en pokemon" />
 </form>
