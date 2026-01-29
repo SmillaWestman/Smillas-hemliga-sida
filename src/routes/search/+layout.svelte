@@ -3,6 +3,8 @@
   // Importera goto-funktionen för att navigera mellan sidor
   import { goto } from '$app/navigation';
   import {onMount} from 'svelte'
+  	import { base } from '$app/paths';
+
 
   let recentSearches = []
 
@@ -79,7 +81,7 @@ function handleSubmit(e) {
 <footer>
   {#each recentSearches as search}
     <a
-      href={`/search/${search}`}
+      href={`${base}/search/${search}`}
       class={`recent-link ${getTypeClass(search)}`}
       
     >

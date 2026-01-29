@@ -16,9 +16,6 @@ const config = {
 			assets: 'docs',
 			fallback: '404.html'
 		}),
-
-		paths: {
-			base: '/search'}
 		
 	},
 };
