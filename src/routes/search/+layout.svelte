@@ -46,7 +46,7 @@ function handleSubmit(e) {
     saveSearch(search)
     
     // Navigera till den dynamiska routen /search/[pokemon]
-    goto('/search/[pokemon]');
+    goto(base+'/search/'+search);
   }
 
   function getTypeClass(name) {
